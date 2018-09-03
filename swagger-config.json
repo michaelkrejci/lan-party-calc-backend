@@ -1,0 +1,13 @@
+{
+  "modelPackage": "org.mk.lanparty.model",
+  "apiPackage": "org.mk.lanparty.api",
+  "configPackage": "org.mk.lanparty.config",
+  "basePackage": "org.mk.lanparty",
+  "dateLibrary": "java8",
+  "title": "LAN-party calc",
+  "groupId": "org.mk",
+  "artifactId": "lan-party-calc-backend",
+  "artifactVersion": "0.0.1-SNAPSHOT",
+  "developerName": "Michael Krejci",
+  "developerEmail": "michael.krejci95@gmail.com"
+}
