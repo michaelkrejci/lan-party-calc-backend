@@ -9,7 +9,7 @@ data class Tag(
 
     @Id
     @GeneratedValue
-    val id: Long,
+    var id: Long,
 
-    val name: String
+    var name: String
 )

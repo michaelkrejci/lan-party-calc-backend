@@ -10,11 +10,11 @@ import javax.persistence.OneToOne
 data class InventoryItem(
 
     @Id
-    val id: Long,
+    var id: Long,
 
     @MapsId
     @OneToOne(fetch = FetchType.LAZY)
-    val drink: Drink,
+    var drink: Drink,
 
-    val quantity: Int
+    var quantity: Int
 )

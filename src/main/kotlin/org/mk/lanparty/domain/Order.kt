@@ -5,17 +5,19 @@ import javax.persistence.Entity
 import javax.persistence.GeneratedValue
 import javax.persistence.Id
 import javax.persistence.ManyToOne
+import javax.persistence.Table
 
 @Entity
+@Table(name = "order_table")
 data class Order(
     @Id
     @GeneratedValue
-    val id: Long,
+    var id: Long,
 
     @ManyToOne
-    val drink: InventoryItem,
+    var drink: InventoryItem,
 
-    val quantity: Int,
+    var quantity: Int,
 
-    val shipDate: OffsetDateTime
+    var shipDate: OffsetDateTime
 )

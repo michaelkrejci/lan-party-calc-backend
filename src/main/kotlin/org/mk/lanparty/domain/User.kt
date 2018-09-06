@@ -9,14 +9,14 @@ import javax.persistence.OneToMany
 data class User(
     @Id
     @GeneratedValue
-    val id: Long,
-    val username: String,
-    val firstName: String,
-    val lastName: String,
-    val email: String,
-    val password: String,
-    val roomNumber: Integer,
+    var id: Long,
+    var username: String,
+    var firstName: String,
+    var lastName: String,
+    var email: String,
+    var password: String,
+    var roomNumber: Int,
     @OneToMany
-    val orders: List<Order>
+    var orders: List<Order>
 
 )
