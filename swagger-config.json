@@ -9,5 +9,7 @@
   "artifactId": "lan-party-calc-backend",
   "artifactVersion": "0.0.1-SNAPSHOT",
   "developerName": "Michael Krejci",
-  "developerEmail": "michael.krejci95@gmail.com"
+  "developerEmail": "michael.krejci95@gmail.com",
+  "delegatePattern": true,
+  "sourceFolder": ""
 }
